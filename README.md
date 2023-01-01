@@ -4,7 +4,7 @@
 
 ### Hardware Components
 
-<img src="./images/GestureControlCarTx.png" width="700" />
+<img src="./images/GestureControlCarTx.png" width="500" />
 
 A gesture control car transmitter using Arduino Nano, NRF24L01 with adapter, MPU 6050, and a 12V DC battery can be used to control a remote-controlled car using hand gestures. The NRF24L01 is a wireless transceiver module that can be used to send data wirelessly to the car's receiver. The MPU 6050 is an accelerometer and gyroscope sensor that measures the movement and orientation of the user's hand. The 12V DC battery powers the entire system. To use this system, the user would wear the transmitter device on their hand. The device is equipped with the MPU 6050 sensor and the NRF24L01 module with adapter. The MPU 6050 sensor measures the movement and orientation of the user's hand and sends this data to the NRF24L01 module, which transmits it wirelessly to the car's receiver. The car's receiver, which is equipped with an Arduino Nano and an L298N motor driver, processes the data received from the transmitter and uses it to control the motors of the car. The car can be made to move forward, backward, left, or right depending on the hand gestures made by the user. Overall, this system allows the user to control a remote-controlled car using hand gestures, providing a fun and interactive way to play with the car.
 
